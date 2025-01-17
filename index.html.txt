@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff0f5;
+            color: #333;
+        }
+        header {
+            background-color: #ff69b4;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff1493;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .about {
+            text-align: center;
+            padding: 20px;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #ff1493;
+        }
+        footer {
+            background-color: #ff1493;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sweet Delights</h1>
+        <p>Your one-stop shop for all things sweet!</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home" class="gallery">
+        <img src="https://via.placeholder.com/200" alt="Sweet 1">
+        <img src="https://via.placeholder.com/200" alt="Sweet 2">
+        <img src="https://via.placeholder.com/200" alt="Sweet 3">
+        <img src="https://via.placeholder.com/200" alt="Sweet 4">
+    </section>
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At Sweet Delights, we bring joy to your taste buds with our wide variety of candies, chocolates, and desserts. We pride ourselves on quality and customer satisfaction.</p>
+    </section>
+    <section id="contact">
+        <h2 style="text-align: center;">Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2025 Sweet Delights. All rights reserved.</p>
+        <p>Follow us on <a href="#" style="color: white;">Instagram</a> | <a href="#" style="color: white;">Facebook</a> | <a href="#" style="color: white;">Twitter</a></p>
+    </footer>
+    <script>
+        // JavaScript can be added here for interactivity in the future.
+    </script>
+</body>
+</html>
